@@ -1,2 +1,10 @@
 tmp/*
 *.qgs~
+
+# Python compiled bytecode
+*.pyc
+
+# eclipse project
+.settings
+.project
+.pydevproject
