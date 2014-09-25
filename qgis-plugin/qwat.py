@@ -25,12 +25,13 @@
 #
 #---------------------------------------------------------------------
 
+import os
 from PyQt4.QtCore import QUrl, Qt, QTranslator, QCoreApplication, QSettings, QFileInfo
 from PyQt4.QtGui import QAction, QIcon, QDesktopServices
 from qgis.core import QgsMapLayer, QgsProject, QgsApplication
 
 from core.mysettings import MySettings
-from gui.mysettingsdialog import MySettingsDialog
+# from gui.mysettingsdialog import MySettingsDialog
 from gui.maindialog import MainDialog
 
 import resources
@@ -42,20 +43,21 @@ class qWat():
         self.settings = MySettings()
         self.mainDialog = MainDialog()
 
-         # Initialise the translation environment.
-        userPluginPath = QFileInfo(QgsApplication.qgisUserDbFilePath()).path()+"/python/plugins/qwat"
-        systemPluginPath = QgsApplication.prefixPath()+"/share/qgis/python/plugins/qwat"
-        locale = QSettings().value("locale/userLocale")
-        myLocale = locale[0:2]
-        if QFileInfo(userPluginPath).exists():
-            pluginPath = userPluginPath+"/i18n/qwat_"+myLocale+".qm"
-        elif QFileInfo(systemPluginPath).exists():
-            pluginPath = systemPluginPath+"/i18n/qwat_"+myLocale+".qm"
-        self.localePath = pluginPath
-        if QFileInfo(self.localePath).exists():
-            self.translator = QTranslator()
-            self.translator.load(self.localePath)
-            QCoreApplication.installTranslator(self.translator)
+        # initialize plugin directory
+        self.plugin_dir = os.path.dirname(__file__)
+        # initialize locale
+        locale = QSettings().value('locale/userLocale')[0:2]
+        locale_path = os.path.join(
+            self.plugin_dir,
+            'i18n',
+            'qwat_{}.qm'.format(locale))
+
+        if os.path.exists(locale_path):
+            self.translator = QtCore.QTranslator()
+            self.translator.load(locale_path)
+
+            if qVersion() > '4.3.3':
+                QCoreApplication.installTranslator(self.translator)
 
 
     def initGui(self):
