@@ -1,9 +1,8 @@
 #!/bin/bash
 
-user=$1
-dbname=$2
-
+read -p "Enter user name : " user
 read -p "Enter password for user $user : " password
+read -p "Enter database name : " dbname
 export PGPASSWORD=$password
 
 #sudo -u postgres dropdb --if-exists $dbname
@@ -39,7 +38,8 @@ done
 echo -e "COMMIT;" >> install.sql
 
 
-psql -h localhost -U $user -d $dbname -v ON_ERROR_STOP=1 -f install.sql
-
+psql -h localhost -U $user -d $dbname -v ON_ERROR_STOP=1 -f install.sql 2> install.err
+cat install.err
 
 exit 0
+
