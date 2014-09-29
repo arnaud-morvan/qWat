@@ -3,18 +3,21 @@
 user=$1
 dbname=$2
 
+read -p "Enter password for user $user : " password
+export PGPASSWORD=$password
+
 #sudo -u postgres dropdb --if-exists $dbname
 #sudo -u postgres dropuser --if-exists $user
 
 # Create user
-sudo -u postgres createuser -l $user
-read -p "Enter password for user $user : " password
-sudo -u postgres psql -c "ALTER ROLE "$user" WITH PASSWORD '$password';"
+# sudo -u postgres createuser -l $user
+# sudo -u postgres psql -c "ALTER ROLE "$user" WITH PASSWORD '$password';"
+
 
 # Create database
-sudo -u postgres createdb $dbname -E UTF8 -T template0 -O $user
-sudo -u postgres psql -d $dbname -c 'CREATE EXTENSION hstore;'
-sudo -u postgres psql -d $dbname -c 'CREATE EXTENSION postgis;'
+# sudo -u postgres createdb $dbname -E UTF8 -T template0 -O $user
+# sudo -u postgres psql -d $dbname -c 'CREATE EXTENSION hstore;'
+# sudo -u postgres psql -d $dbname -c 'CREATE EXTENSION postgis;'
 
 
 ##############################
@@ -35,7 +38,7 @@ done
 
 echo -e "COMMIT;" >> install.sql
 
-export PGPASSWORD=$password
+
 psql -h localhost -U $user -d $dbname -v ON_ERROR_STOP=1 -f install.sql
 
 
