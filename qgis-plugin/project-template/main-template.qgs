@@ -2949,7 +2949,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="3001" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="3.6" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="0" scaleBasedLabelVisibilityFlag="0">
             <id>cadastre20140312152032371</id>
-            <datasource>service='qWat' sslmode=disable key='id' estimatedmetadata=true srid=21781 type=LINESTRING table="enquete"."cadastre" (geometry) sql=</datasource>
+            <datasource>service='qWat' sslmode=allow key='id' estimatedmetadata=true srid=21781 type=LINESTRING table="enquete"."cadastre" (geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -3161,7 +3161,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="4000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>camac20140113144941208</id>
-            <datasource>service='qWat' sslmode=disable key='id' estimatedmetadata=true srid=21781 type=POINT table="enquete"."camac" (geometry) sql=</datasource>
+            <datasource>service='qWat' sslmode=allow key='id' estimatedmetadata=true srid=21781 type=POINT table="enquete"."camac" (geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -4032,7 +4032,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>conduites_copy20130709141244955</id>
-            <datasource>service='qWat' sslmode=disable key='id' srid=21781 type=LINESTRING table="distribution"."od_pipe" (geometry) sql=</datasource>
+            <datasource>service='qWat' sslmode=allow key='id' srid=21781 type=LINESTRING table="distribution"."od_pipe" (geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -4839,7 +4839,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>constructionpoint20130807094904851</id>
-            <datasource>service='qWat' sslmode=disable key='id' srid=21781 type=POINT table="distribution"."od_constructionpoint" (geometry) sql=</datasource>
+            <datasource>service='qWat' sslmode=allow key='id' srid=21781 type=POINT table="distribution"."od_constructionpoint" (geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -4936,7 +4936,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="501" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>dimension20130807094904783</id>
-            <datasource>service='qWat' sslmode=disable key='id' srid=21781 type=LINESTRING table="distribution"."od_dimension_distance" (geometry) sql=</datasource>
+            <datasource>service='qWat' sslmode=allow key='id' srid=21781 type=LINESTRING table="distribution"."od_dimension_distance" (geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -6319,7 +6319,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>installation_pressurecontrol20131107105006792</id>
-            <datasource>service='qWat' sslmode=disable key='id' estimatedmetadata=true srid=21781 type=POINT table="distribution"."od_installation_pressurecontrol" (geometry) sql=</datasource>
+            <datasource>service='qWat' sslmode=allow key='id' estimatedmetadata=true srid=21781 type=POINT table="distribution"."od_installation_pressurecontrol" (geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -6713,7 +6713,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>installation_pump20130816140237750</id>
-            <datasource>service='qWat' sslmode=disable key='id' srid=21781 type=POINT table="distribution"."od_installation_pump" (geometry) sql=</datasource>
+            <datasource>service='qWat' sslmode=allow key='id' srid=21781 type=POINT table="distribution"."od_installation_pump" (geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -7040,7 +7040,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>installation_source20130820110331647</id>
-            <datasource>service='qWat' sslmode=disable key='id' srid=21781 type=POINT table="distribution"."od_installation_source" (geometry) sql=</datasource>
+            <datasource>service='qWat' sslmode=allow key='id' srid=21781 type=POINT table="distribution"."od_installation_source" (geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -7804,7 +7804,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>installation_treatment20130816113039913</id>
-            <datasource>service='qWat' sslmode=disable key='id' srid=21781 type=POINT table="distribution"."od_installation_treatment" (geometry) sql=</datasource>
+            <datasource>service='qWat' sslmode=allow key='id' srid=21781 type=POINT table="distribution"."od_installation_treatment" (geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -8138,7 +8138,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>installation_valvechamber20131107105006707</id>
-            <datasource>service='qWat' sslmode=disable key='id' estimatedmetadata=true srid=21781 type=POINT table="distribution"."od_installation_valvechamber" (geometry) sql=</datasource>
+            <datasource>service='qWat' sslmode=allow key='id' estimatedmetadata=true srid=21781 type=POINT table="distribution"."od_installation_valvechamber" (geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -8493,7 +8493,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="5001" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>leak20130821111917060</id>
-            <datasource>service='qWat' sslmode=disable key='id' srid=21781 type=POINT table="distribution"."od_leak" (geometry) sql=</datasource>
+            <datasource>service='qWat' sslmode=allow key='id' srid=21781 type=POINT table="distribution"."od_leak" (geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -9316,7 +9316,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1001" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>od_annotationline20131203095020365</id>
-            <datasource>service='qWat' sslmode=disable key='id' estimatedmetadata=true srid=21781 type=LINESTRING table="distribution"."od_annotationline" (geometry) sql=</datasource>
+            <datasource>service='qWat' sslmode=allow key='id' estimatedmetadata=true srid=21781 type=LINESTRING table="distribution"."od_annotationline" (geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -9537,7 +9537,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1001" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>od_annotationpoint20131203095020392</id>
-            <datasource>service='qWat' sslmode=disable key='id' estimatedmetadata=true srid=21781 type=POINT table="distribution"."od_annotationpoint" (geometry) sql=</datasource>
+            <datasource>service='qWat' sslmode=allow key='id' estimatedmetadata=true srid=21781 type=POINT table="distribution"."od_annotationpoint" (geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -9760,7 +9760,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="501" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>od_dimension_orientation20131202111155806</id>
-            <datasource>service='qWat' sslmode=disable key='id' estimatedmetadata=true srid=21781 type=LINESTRING table="distribution"."od_dimension_orientation" (geometry) sql=</datasource>
+            <datasource>service='qWat' sslmode=allow key='id' estimatedmetadata=true srid=21781 type=LINESTRING table="distribution"."od_dimension_orientation" (geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -9975,7 +9975,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="3.6" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="0" scaleBasedLabelVisibilityFlag="0">
             <id>od_installationpart20140429113327995</id>
-            <datasource>service='qWat' sslmode=disable key='id' estimatedmetadata=true srid=21781 type=POINT table="distribution"."od_installationpart" (geometry) sql=</datasource>
+            <datasource>service='qWat' sslmode=allow key='id' estimatedmetadata=true srid=21781 type=POINT table="distribution"."od_installationpart" (geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -10216,7 +10216,7 @@
         </maplayer>
         <maplayer minimumScale="4" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>od_meter20131120073630165</id>
-            <datasource>service='qWat' sslmode=disable key='id' estimatedmetadata=true srid=21781 type=POINT table="distribution"."od_meter" (geometry) sql=</datasource>
+            <datasource>service='qWat' sslmode=allow key='id' estimatedmetadata=true srid=21781 type=POINT table="distribution"."od_meter" (geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -10514,7 +10514,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="3000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>od_meter_reference20140304165835390</id>
-            <datasource>service='qWat' sslmode=disable key='id' estimatedmetadata=true srid=21781 type=POINT table="distribution"."od_meter_reference" (geometry) sql=</datasource>
+            <datasource>service='qWat' sslmode=allow key='id' estimatedmetadata=true srid=21781 type=POINT table="distribution"."od_meter_reference" (geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -10771,7 +10771,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="3.6" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="0" scaleBasedLabelVisibilityFlag="0">
             <id>od_node20140116161508743</id>
-            <datasource>service='qWat' sslmode=disable key='id' estimatedmetadata=true srid=21781 type=POINT table="distribution"."od_node" (geometry) sql=</datasource>
+            <datasource>service='qWat' sslmode=allow key='id' estimatedmetadata=true srid=21781 type=POINT table="distribution"."od_node" (geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -11000,7 +11000,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="3000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>od_subscriber_reference20131206105928067</id>
-            <datasource>service='qWat' sslmode=disable key='id' estimatedmetadata=true srid=21781 type=POINT table="distribution"."od_subscriber_reference" (geometry) sql=</datasource>
+            <datasource>service='qWat' sslmode=allow key='id' estimatedmetadata=true srid=21781 type=POINT table="distribution"."od_subscriber_reference" (geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -11257,7 +11257,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="3001" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>od_wateringoutput20131127080906318</id>
-            <datasource>service='qWat' sslmode=disable key='id' estimatedmetadata=true srid=21781 type=POINT table="distribution"."od_wateringoutput" (geometry) sql=</datasource>
+            <datasource>service='qWat' sslmode=allow key='id' estimatedmetadata=true srid=21781 type=POINT table="distribution"."od_wateringoutput" (geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -11507,7 +11507,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1500" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>pipe_child_parent20130417092030507</id>
-            <datasource>service='qWat' password='db4wat$' sslmode=disable key='child' srid=21781 type=LINESTRING table="distribution"."vw_pipe_child_parent" (geometry) sql=</datasource>
+            <datasource>service='qWat' password='db4wat$' sslmode=allow key='child' srid=21781 type=LINESTRING table="distribution"."vw_pipe_child_parent" (geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -11753,7 +11753,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>pressurezone20130417133612105</id>
-            <datasource>service='qWat' sslmode=disable key='id' srid=21781 type=MULTIPOLYGON table="distribution"."od_pressurezone" (geometry) sql=</datasource>
+            <datasource>service='qWat' sslmode=allow key='id' srid=21781 type=MULTIPOLYGON table="distribution"."od_pressurezone" (geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -12891,7 +12891,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>subscriber_pipe_relation20130417092124312</id>
-            <datasource>service='qWat' sslmode=disable key='id' srid=21781 type=LINESTRING table="distribution"."od_subscriber_pipe_relation" (geometry) sql=</datasource>
+            <datasource>service='qWat' sslmode=allow key='id' srid=21781 type=LINESTRING table="distribution"."od_subscriber_pipe_relation" (geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -14025,7 +14025,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>vl_installation_type20130514104730101</id>
-            <datasource>service='qWat' password='db4wat$' sslmode=disable key='id' table="distribution"."vl_installation_type" sql=</datasource>
+            <datasource>service='qWat' password='db4wat$' sslmode=allow key='id' table="distribution"."vl_installation_type" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -14085,7 +14085,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>vl_installationpart_type20140429114640509</id>
-            <datasource>service='qWat' sslmode=disable key='id' estimatedmetadata=true table="distribution"."vl_installationpart_type" sql=</datasource>
+            <datasource>service='qWat' sslmode=allow key='id' estimatedmetadata=true table="distribution"."vl_installationpart_type" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -14151,7 +14151,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>vl_leak_cause20130822081237639</id>
-            <datasource>service='qWat' sslmode=disable key='id' table="distribution"."vl_leak_cause" sql=</datasource>
+            <datasource>service='qWat' sslmode=allow key='id' table="distribution"."vl_leak_cause" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -14202,7 +14202,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>vl_leak_damage20130822081237691</id>
-            <datasource>service='qWat' sslmode=disable key='id' table="distribution"."vl_leak_damage" sql=</datasource>
+            <datasource>service='qWat' sslmode=allow key='id' table="distribution"."vl_leak_damage" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -14253,7 +14253,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>vl_leak_type20130822081237675</id>
-            <datasource>service='qWat' sslmode=disable key='id' table="distribution"."vl_leak_type" sql=</datasource>
+            <datasource>service='qWat' sslmode=allow key='id' table="distribution"."vl_leak_type" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -14673,7 +14673,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>vl_precisionalti20131211161429510</id>
-            <datasource>service='qWat' sslmode=disable key='id' estimatedmetadata=true table="distribution"."vl_precisionalti" sql=</datasource>
+            <datasource>service='qWat' sslmode=allow key='id' estimatedmetadata=true table="distribution"."vl_precisionalti" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -14733,7 +14733,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>vl_pumptype20130816140237776</id>
-            <datasource>service='qWat' sslmode=disable key='id' table="distribution"."vl_pump_type" sql=</datasource>
+            <datasource>service='qWat' sslmode=allow key='id' table="distribution"."vl_pump_type" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -14840,7 +14840,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>vl_sourcequality20130820110518810</id>
-            <datasource>service='qWat' sslmode=disable key='id' table="distribution"."vl_source_quality" sql=</datasource>
+            <datasource>service='qWat' sslmode=allow key='id' table="distribution"."vl_source_quality" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -14894,7 +14894,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>vl_sourcetype20130820110518791</id>
-            <datasource>service='qWat' sslmode=disable key='id' table="distribution"."vl_source_type" sql=</datasource>
+            <datasource>service='qWat' sslmode=allow key='id' table="distribution"."vl_source_type" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -15360,7 +15360,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>vl_watertype20131217141603877</id>
-            <datasource>service='qWat' sslmode=disable key='id' estimatedmetadata=true table="distribution"."vl_watertype" sql=</datasource>
+            <datasource>service='qWat' sslmode=allow key='id' estimatedmetadata=true table="distribution"."vl_watertype" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
